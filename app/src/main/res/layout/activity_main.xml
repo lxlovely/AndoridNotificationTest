@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="showNotification"
+        android:text="show notification!"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="231dp" />
+        <!--android:layout_constraintBottom_toBottomOf="0" -->
+        <!--android:layout_constraintLeft_toLeftOf="0" -->
+        <!--android:layout_constraintRight_toRightOf="0" -->
+        <!--android:layout_constraintTop_toTopOf="0" />-->
+
+
+</android.support.constraint.ConstraintLayout>
